@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+<link rel="stylesheet" href="./style/intlTelInput.min.css">
+
+  </head>
+  <body>
+    <div class="container pt-5 mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 px-5">
+          <h1 class="text-center">Hello World!</h1>
+          <p class="pt-3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            officia veritatis sit minus adipisci quo velit autem laboriosam
+            asperiores excepturi. Vitae obcaecati adipisci inventore mollitia,
+            sapiente reprehenderit nulla eum? Quidem. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Aliquam, officiis. Natus officia sed
+            perspiciatis non doloremque quas repellat officiis accusamus aperiam
+            illum, est dignissimos omnis quisquam facere placeat doloribus
+            excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eligendi, voluptate reprehenderit! Architecto excepturi corporis
+            obcaecati quibusdam, qui dignissimos quidem consequuntur eligendi in
+            totam! Nihil veritatis, nostrum itaque aspernatur repudiandae
+            repellendus?
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-12 col-md-6">
+                <label for="first_name" class="form-label">Ім'я*</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first_name"
+                  placeholder=""
+                  value=""
+                  minlength="3"
+                  required
+                />
+                <div class="invalid-feedback">
+                    Укажіть дійсне ім’я.
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6">
+                <label for="last_name" class="form-label">Прізвище*</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="last_name"
+                  placeholder=""
+                  value=""
+                  minlength="3"
+                  required
+                />
+                <div class="invalid-feedback">Укажіть дійсне прізвище.</div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label"
+                  >Електронна пошта</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required
+                />
+                <div class="invalid-feedback">
+                    Будь ласка, введіть дійсну адресу електронної пошти.
+                </div>
+              </div>
+              <div class="col-12 mb-4">
+                <label for="phone" class="form-label"
+                  >Телефон</label
+                >
+              <input
+                type="text"
+                class="form-control bfh-phone"
+                id="phone"
+                placeholder=""
+                pattern="[0-9]+"
+                required
+              />
+              </div>
+              <div class="col-12 ">
+                <button class="w-100 btn btn-primary btn-lg " type="submit">
+                    Відправити
+                </button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./javascript/bootstrap.bundle.min.js"></script>
+    <script src="./javascript/intlTelInput.min.js"></script>
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
